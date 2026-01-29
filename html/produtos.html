@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Produtos | Baú dos Baixinhos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+<header class="topo">
+  <img src="../img/bau.jpg" alt="Baú dos Baixinhos" class="logo">
+</header>
+
+<nav class="menu">
+  <ul class="menu-links">
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="produtos.html">Produtos</a></li>
+    <li><a href="sobre.html">Sobre nós</a></li>
+    <li><a href="redes.html">Nossas redes</a></li>
+  </ul>
+
+  <a href="como-chegar.html" class="btn-mapa">Como chegar</a>
+</nav>
+
+<main class="conteudo">
+  <h1>Nossos produtos</h1>
+
+  <p>
+    Confira alguns dos produtos disponíveis no Baú dos Baixinhos.
+    Peças selecionadas com carinho, com <strong>preços variados</strong> 💛
+  </p>
+
+  <section class="grid-produtos">
+
+    <div class="produto">
+      <img src="../img/prod1.jpg" alt="Vaso Japonês" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Vaso Japonês</h3>
+      <p class="preco-produto">R$200,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod2.jpg" alt="Vaso Vermelho" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Vaso Vermelho</h3>
+      <p class="preco-produto">R$40,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod3.jpg" alt="Vaso Colorido" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Vaso Colorido</h3>
+      <p class="preco-produto">R$120,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod4.jpg" alt="Bolsas" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Bolsas</h3>
+      <p class="preco-produto">A partir de R$80,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod5.jpg" alt="Livros" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Livros</h3>
+      <p class="preco-produto">A partir de R$10,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod6.jpg" alt="Calças Jeans" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Calças Jeans</h3>
+      <p class="preco-produto">A partir de R$35,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod7.jpg" alt="Porta-retratos" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Porta-retratos</h3>
+      <p class="preco-produto">A partir de R$20,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod8.jpg" alt="Talheres" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Talheres</h3>
+      <p class="preco-produto">R$35,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod9.jpg" alt="Chapéus" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Chapéus</h3>
+      <p class="preco-produto">A partir de R$25,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod10.jpg" alt="Blazer" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Blazer</h3>
+      <p class="preco-produto">A partir de R$60,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod11.jpg" alt="Sapatos" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Sapatos</h3>
+      <p class="preco-produto">A partir de R$60,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod12.jpg" alt="Lençóis" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Lençóis</h3>
+      <p class="preco-produto">A partir de R$35,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod13.jpg" alt="Sandálias" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Sandálias</h3>
+      <p class="preco-produto">A partir de R$50,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod14.jpg" alt="Vestidos" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Vestidos</h3>
+      <p class="preco-produto">A partir de R$50,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod15.jpg" alt="Shorts" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Shorts</h3>
+      <p class="preco-produto">A partir de R$35,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="../img/prod16.jpg" alt="Camisas Infantis" onclick="expandirImagem(this)" style="cursor: pointer;">
+      <h3>Camisas Infantis</h3>
+      <p class="preco-produto">A partir de R$30,00</p>
+      <button class="btn-comprar" onclick="comprar()">Comprar</button>
+    </div>
+
+  </section>
+</main>
+
+<footer class="rodape">
+  <p>© 2026 - Baú dos Baixinhos · Criado por Vinicius</p>
+</footer>
+
+<script src="../js/script.js"></script>
+
+<div id="modal-imagem" class="modal" onclick="fecharImagem()">
+  <span class="fechar">&times;</span>
+  <img class="modal-conteudo" id="img-expandida" alt="">
+</div>
+
+</body>
+</html>
